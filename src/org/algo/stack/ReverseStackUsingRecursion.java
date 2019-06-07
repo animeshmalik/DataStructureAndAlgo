@@ -44,20 +44,19 @@ public class ReverseStackUsingRecursion {
     { 
         if(st.size() > 0) 
         { 
-              
             // Hold all items in Function 
             // Call Stack until we 
             // reach end of the stack  
             char x = st.peek(); 
             st.pop(); 
             reverse(); 
-              
+        	
             // Insert all the items held  
             // in Function Call Stack 
             // one by one from the bottom 
             // to top. Every item is 
             // inserted at the bottom  
-            insert_at_bottom(x); 
+           // insert_at_bottom(x);            
         } 
     } 
       
