@@ -56,7 +56,7 @@ public class ReverseStackUsingRecursion {
             // one by one from the bottom 
             // to top. Every item is 
             // inserted at the bottom  
-           // insert_at_bottom(x);            
+            insert_at_bottom(x);            
         } 
     } 
       
